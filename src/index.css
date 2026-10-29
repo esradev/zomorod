@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Vazirmatn:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-deep: #002215;
+  --color-champagne: #ffe088;
+  --color-champagne-dark: #e0be5b;
+  --color-champagne-light: #fff5d6;
+  --color-luxury-bg: #fbf9f8;
+  --color-luxury-surface: #fdfcfb;
+  --color-luxury-text: #1b1c1c;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Vazirmatn", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-luxury-bg);
+  color: var(--color-luxury-text);
+  font-family: var(--font-sans);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbars and styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fbf9f8;
+}
+::-webkit-scrollbar-thumb {
+  background: #002215;
+  border-radius: 3px;
+}
